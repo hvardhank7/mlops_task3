@@ -110,11 +110,11 @@ s = smtplib.SMTP('smtp.gmail.com', 587)
 # start TLS for security 
 s.starttls()   
 # Authentication 
-s.login("tarungarg20001@gmail.com", "Darpan786") 
+s.login("abc@gmail.com", "*****") 
 # message to be sent 
 message = "Hey Developer, this is to inform you that your MNIST model finally  got the model trained with 99  accuracy "
 # sending the mail 
-s.sendmail("tarungarg20001@gmail.com", "hvardhank7@gmail.com", message) 
+s.sendmail("abc@gmail.com", "xyz@gmail.com", message) 
 # terminating the session 
 s.quit()
 
